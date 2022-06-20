@@ -1,3 +1,7 @@
 This is the second problem to be tackled during the Bachelor Thesis, that is, the One-Dimensional Wave Equation. The codes contained here are the following:
 
+1. 
 
+2.
+
+3. W2_WE1D_Dirichlet. This corresponds to the solution of the 1DHE with Dirichlet Boundary Conditions.
