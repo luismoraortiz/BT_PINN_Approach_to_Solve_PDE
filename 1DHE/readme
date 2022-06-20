@@ -7,7 +7,7 @@ The results will be available at "Data_1DHE_Performance.mat".
 The results will be available at "Data_1DHE_Collocation.mat"
 
 3. W0_OptimComps. This code consists on the comparison of optimization methods applied to solve this problem with a shallow 2-layered model.
-The results will be available at "OptimComps.mat" and the ADAM solver in "fms_adam.m" retrieved from DylanMuir's GitHub.
+The results will be available at "OptimMethods.mat" and the ADAM solver in "fms_adam.m" retrieved from DylanMuir's GitHub.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Beyond the scope of the Bachelor Thesis
