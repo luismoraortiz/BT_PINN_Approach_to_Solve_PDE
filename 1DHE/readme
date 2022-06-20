@@ -3,7 +3,10 @@ This is the first problem that was analyzed during the thesis, that is, the one-
 1. W1_HE1D_ErrorMeasure. This consists on analyzing the errors in the 1DHE problem with Dirichlet boundary conditions for 100 different samples.
 The results will be available at "Data_1DHE_Performance.mat".
 
-2. W1_HE1D_Collocation. This consists on analyzing the errors in the 1DHE problem with Dirichlet boundary conditions for 4 different collocation routines.
+2. W1_HE1D_MeshComps. This consists on analyzing the errors in the 1DHE problem with Dirichlet boundary conditions for 4 different collocation routines.
 The results will be available at "Data_1DHE_Collocation.mat"
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Beyond the scope of the Bachelor Thesis
+- W1_HE1D_ActivFunction. This is a code that attempts to compare the errors in the problem using different types of Activation Functions.
