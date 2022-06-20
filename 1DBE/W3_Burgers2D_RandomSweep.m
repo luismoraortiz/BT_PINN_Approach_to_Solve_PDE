@@ -187,6 +187,11 @@ for i = 1:100
     disp(i)
 end
 
+
+%% Checkmark for results: 
+% if the .mat data is loaded, the archive might be opened from here and
+% only the sections above will be ran.
+
 %% Developping the plots and visualizations
 convs2 = err_FC<0.02;
 sum((convs==1)&(convs2==0))
