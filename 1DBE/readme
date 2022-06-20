@@ -1,1 +1,9 @@
+This contains the codes of the third problem to be solved during the thesis, that is, the Burgers Equation. The codes contained in this folder are the following:
+
+1.
+
+2.
+
+3. W3_BE1D_Example. This is an example of the resolution of the Burgers equation in 1D with a PINN model. 
+It is compared to an analytical solution stemming from a Hopf-Cole transformation.
 
