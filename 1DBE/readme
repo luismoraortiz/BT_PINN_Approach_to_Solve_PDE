@@ -1,6 +1,7 @@
 This contains the codes of the third problem to be solved during the thesis, that is, the Burgers Equation. The codes contained in this folder are the following:
 
-1.
+1. W3_BE1D_RandSweep. This consists on analyzing the errors of several trials of the Burgers Equation considering a random meshing.
+Its data is contained within "Data_BE1D_Sweep.mat".
 
 2.
 
