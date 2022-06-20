@@ -6,8 +6,11 @@ The results will be available at "Data_1DHE_Performance.mat".
 2. W1_HE1D_MeshComps. This consists on analyzing the errors in the 1DHE problem with Dirichlet boundary conditions for 4 different collocation routines.
 The results will be available at "Data_1DHE_Collocation.mat"
 
-3. W0_OptimComps. This code consists on the comparison of optimization methods applied to solve this problem with a shallow 2-layered model.
+3. W0_OptimMethodsComps. This code consists on the comparison of optimization methods applied to solve this problem with a shallow 2-layered model.
 The results will be available at "OptimMethods.mat" and the ADAM solver in "fms_adam.m" retrieved from DylanMuir's GitHub.
+
+4. W1_HE_Dirichlet_FDs and W1_HE_Neumann_FD. These codes correspond to the resolution of the 1DHE with Dirichlet and Neumann BCs.
+They will contain a finite differences routine and exact solution to gauge the model's performance.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Beyond the scope of the Bachelor Thesis
