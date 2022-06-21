@@ -9,6 +9,3 @@ The data will be available in a file called "Data_2DHE_OptSweep.mat".
 3. W4_HE2D_Dirichlet. This is the code that solves the Heat Equation in two-dimensions using Dirichlet Boundary Conditions. It is the first code obtained for 2D Algorithms.
 A MATLAB file called "HE2D_Dir_Coeff.mat" can be used to load the Fourier Heat Equation coefficients for this problem.
 
----------------------------------------------------------------------------------------------------------------------------------------------
-
-- W4_HE2D_Neumann. This is an unused code that solves the Heat Equation in two-dimensions using Neumann Boundary Conditions.
