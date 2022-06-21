@@ -1,1 +1,14 @@
+The fourth problem to consider is the 2DHE, that is, the two-dimensional Heat Equation. The codes obtained in that context are the following:
 
+1. W4_HE2D_nLnN_Sweep. This is the code that solves the HE2D problem for varying architectures (nL and nN) to study their sensitivity to the problem's performance.
+The data will be available in a file called "Data_2DHE_nL_nN_Sweep.mat".
+
+2. W4_HE2D_OptSweep. This is a more thorough study for the performance of the HE2D problem in what was identified as the optimal architecture.
+The data will be available in a file called "Data_2DHE_OptSweep.mat".
+
+3. W4_HE2D_Dirichlet. This is the code that solves the Heat Equation in two-dimensions using Dirichlet Boundary Conditions. It is the first code obtained for 2D Algorithms.
+A MATLAB file called "HE2D_Dir_Coeff.mat" can be used to load the Fourier Heat Equation coefficients for this problem.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+- W4_HE2D_Neumann. This is an unused code that solves the Heat Equation in two-dimensions using Neumann Boundary Conditions.
