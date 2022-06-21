@@ -5,4 +5,4 @@ The data is available at the file "Data_WE2D_OptSweep.mat".
 
 2. 
 
-3. W5_WE2D_Dirichlet.
+3. W5_WE2D_Dirichlet. This is the code that solves the Wave Equation in two-dimensions using Dirichlet Boundary Conditions.
