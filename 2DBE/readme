@@ -1,7 +1,8 @@
 The sixth problem to solve is the Two-Dimensional Burgers Equation. The codes contained within this folder are the following:
 
-1.
+1. W6_BE2D_OptSweep. This code corresponds to the resolution of the 2DBE a number of times compared to the Hopf-Cole proposed integral solution.
+The data to obtain the results is contained at the file "Data_BE2D_Sweep.mat".
 
 2.
 
-3.
+3. W6_BE2D_Ex. This is the baseline code for the resolution of the problem used as a reference.
