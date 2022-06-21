@@ -1,1 +1,8 @@
+The fourth problem to consider is the 2DHE, that is, the two-dimensional Wave Equation. The codes obtained in that context are the following:
 
+1. W5_WE2D_OptSweep. This corresponds to a sweep of the 2DWE problem using the Optimal Architecture with Dirichlet BCs.
+The data is available at the file "Data_WE2D_OptSweep.mat".
+
+2. 
+
+3. W5_WE2D_Dirichlet.
