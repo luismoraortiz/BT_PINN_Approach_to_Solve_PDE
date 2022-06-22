@@ -766,58 +766,58 @@ corr(ttaken(cc)',niter(cc)')
 %%
 % Choosing 22 as an example of invalid solution and 23 as an example of
 % a valid one
-ii = 58; jj = 69;
-figure
-subplot(2,2,1)
-hold on
-plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A0.("sol"+ii)),'r')
-plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A0.("sol"+jj)),'b')
-plot(extractdata(dlXTest),u_exp_0,'k--')
-hold off
-title('Initial Condition $u(x,t = 0)$','Interpreter','latex');
-xlabel('x-coordinate','Interpreter','latex');
-ylabel('Value of $u$','Interpreter','latex');
-grid minor;
-box on
-subplot(2,2,2)
-hold on
-plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A1.("sol"+ii)),'r')
-plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A1.("sol"+jj)),'b')
-plot(extractdata(dlXTest),u_exp_1,'k--')
-hold off
-title('Final Solution $u(x,t = 1)$','Interpreter','latex');
-xlabel('x-coordinate','Interpreter','latex');
-ylabel('Value of $u$','Interpreter','latex');
-grid minor;
-box on
-subplot(2,2,3)
-hold on
+% ii = 58; jj = 69;
+% figure
+% subplot(2,2,1)
+% hold on
+% plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A0.("sol"+ii)),'r')
+% plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A0.("sol"+jj)),'b')
+% plot(extractdata(dlXTest),u_exp_0,'k--')
+% hold off
+% title('Initial Condition $u(x,t = 0)$','Interpreter','latex');
+% xlabel('x-coordinate','Interpreter','latex');
+% ylabel('Value of $u$','Interpreter','latex');
+% grid minor;
+% box on
+% subplot(2,2,2)
+% hold on
+% plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A1.("sol"+ii)),'r')
+% plot(extractdata(dlXTest),extractdata(dlUPred_ICPs_A1.("sol"+jj)),'b')
+% plot(extractdata(dlXTest),u_exp_1,'k--')
+% hold off
+% title('Final Solution $u(x,t = 1)$','Interpreter','latex');
+% xlabel('x-coordinate','Interpreter','latex');
+% ylabel('Value of $u$','Interpreter','latex');
+% grid minor;
+% box on
+% subplot(2,2,3)
+% hold on
 %plot(extractdata(dlTSides),extractdata(dlUPred_ICPs_Left.("sol" + ii)),'r')
-plot(extractdata(dlTSides),extractdata(dlULeft),'r')
+% plot(extractdata(dlTSides),extractdata(dlULeft),'r')
 %plot(extractdata(dlTSides),extractdata(dlUPred_ICPs_Left.("sol" + jj)),'b')
-plot(extractdata(dlTSides),extractdata(dlULeft),'b')
-plot(extractdata(dlTSides),extractdata(dlTSides)*0,'k--')
-hold off
-title('Left Boundary Condition $u(x = -1,t)$','Interpreter','latex');
-xlabel('t-coordinate','Interpreter','latex');
-ylabel('Value of $u$','Interpreter','latex');
-grid minor;
-box on
-subplot(2,2,4)
-hold on
+% plot(extractdata(dlTSides),extractdata(dlULeft),'b')
+% plot(extractdata(dlTSides),extractdata(dlTSides)*0,'k--')
+% hold off
+% title('Left Boundary Condition $u(x = -1,t)$','Interpreter','latex');
+% xlabel('t-coordinate','Interpreter','latex');
+% ylabel('Value of $u$','Interpreter','latex');
+% grid minor;
+% box on
+% subplot(2,2,4)
+% hold on
 %plot(extractdata(dlTSides),extractdata(dlUPred_ICPs_Right.("sol" + ii)),'r')
-plot(extractdata(dlTSides),extractdata(dlURight),'r')
+% plot(extractdata(dlTSides),extractdata(dlURight),'r')
 %plot(extractdata(dlTSides),extractdata(dlUPred_ICPs_Right.("sol" + jj)),'b')
-plot(extractdata(dlTSides),extractdata(dlURight),'b')
-plot(extractdata(dlTSides),extractdata(dlTSides)*0,'k--')
-hold off
-title('Right Boundary Condition $u(x = +1,t)$','Interpreter','latex');
-xlabel('t-coordinate','Interpreter','latex');
-ylabel('Value of $u$','Interpreter','latex');
-grid minor;
-legend('Unsuccessful Trial','Successful Trial','Expected Behavior',...
-    'Location','best','Interpreter','latex')
-box on
+% plot(extractdata(dlTSides),extractdata(dlURight),'b')
+% plot(extractdata(dlTSides),extractdata(dlTSides)*0,'k--')
+% hold off
+% title('Right Boundary Condition $u(x = +1,t)$','Interpreter','latex');
+% xlabel('t-coordinate','Interpreter','latex');
+% ylabel('Value of $u$','Interpreter','latex');
+% grid minor;
+% legend('Unsuccessful Trial','Successful Trial','Expected Behavior',...
+%     'Location','best','Interpreter','latex')
+% box on
 
 %% Extra Functions
 % 
