@@ -1,0 +1,8 @@
+These will correspond to the problems that are solved in the context of the Navier' Stokes Equations.
+
+1. Couette_Flow. This corresponds to the Couette regime across a channel of length 2 and width 1. 
+The data needed to easily access this problem is in "Report_Couette.mat" that represents a successful solution.
+
+2. Poiseuille_Flow. This corresponds to the Poiseuille regime across a channel of length 2 and width 1.
+The data needed to easily access this problem is in "Report_Poiseuille.mat" that represents a successful solution.
+
