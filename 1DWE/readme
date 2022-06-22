@@ -1,7 +1,7 @@
 This is the second problem to be tackled during the Bachelor Thesis, that is, the One-Dimensional Wave Equation. The codes contained here are the following:
 
 1. W2_WE1D_MeshComps. This is the study of four different meshing procedures for the 1DWE, assessing how the modify the performance metrics.
-The data is available in the document "Data_WE1D_Collocation.mat".
+The data is available in the document "Data_WE1D_Collocation.mat". Another dataset, "Data_WE1D_Collocation2.mat" was also used for some metrics (with larger c parameter).
 
 2. W2_WE1D_VelProps. This is the study of the velocity of data transmission c and how it affects the performance metrics of the solution. 
 The data is available in "Data_WE1D_Propagation.mat".
