@@ -11,3 +11,4 @@ The folders will be enumerated here in order as they are appear in the Bachelor 
 4. 2DHE. The Two-Dimensional Heat Equation
 5. 2DWE. The Two-Dimensional Wave Equation
 6. 2DBE. The Two-Dimensional Burgers Equation
+7. NSE.  The Simplified Navier-Stokes' Equation
