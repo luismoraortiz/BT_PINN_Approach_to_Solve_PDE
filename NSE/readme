@@ -5,3 +5,12 @@ The data needed to easily access this problem is in "Report_Couette.mat" that re
 
 2. Poiseuille_Flow. This corresponds to the Poiseuille regime across a channel of length 2 and width 1.
 The data needed to easily access this problem is in "Report_Poiseuille.mat" that represents a successful solution.
+
+3. LDCF_VelForm_2S. This is the solution for the two staged Lid Driven Cavity Flow using the velocity formulation. It will be the one used in the report
+The data needed to easily retrieve the graphs are in "Report_NSE_Re1.mat" and "Report_NSE_Re50.mat".
+
+4. LDCF_VelForm_1S. This is a different solution to the one before in that it is single-staged instead of two-staged. (Could be used, lower accuracy and efficiency).
+
+-----------------------------------------------------------------------------------------------------------------------
+
+5. LDCF_Streamf_1S. This is the original code using the Streamfunction formulation. It has not successfully been applied within this BT.
